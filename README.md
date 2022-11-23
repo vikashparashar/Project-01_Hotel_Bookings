@@ -3,7 +3,8 @@
 
 # What We Are Going To Build
 # [Booking And Reservation](https://github.com/vikashparashar) 
-        Note : Upto Branch 1.0.0 to v1.0.9 is the base structure of project.  From Branch v1.1.0 Onward We Are Going To Work With Our Project
+        Note : Upto Branch 1.0.0 to v1.0.9 is the base structure of project. 
+        From Branch v1.1.0 Onward We Are Going To Work With Our Project
                  ________________________________________________________
                 |                                                        |
                 | A Booking And Reservation Web Application Using Golang |
