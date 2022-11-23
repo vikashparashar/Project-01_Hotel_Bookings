@@ -1,0 +1,41 @@
+{{template "base" .}}
+
+{{define "css"}}
+   <style>
+        body {
+            font-family: 'Righteous', cursive;
+            background-color: #13626db3;
+        }
+    </style>
+{{end}}
+
+
+
+{{define "content"}}
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mt-5">
+                <h1>This Is About Page</h1>
+                <p>
+                    {{if ne (index .StringMap "remote_ip") ""}}
+                        Your Remote IP address is {{index .StringMap "remote_ip"}}
+                    {{else}}
+                        I Don't Know Your IP Address Yet . Visit The <a href="/">Home Page</a> So I Can Set It .
+                        Thank You .
+                    {{end}}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pulling Data From Handlers Func-->
+
+    <p>This Came From Template :  {{index .StringMap "Name"}}</p>
+    
+{{end}}
+
+
+
+{{define "js"}}
+
+{{end}}
