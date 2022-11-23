@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/vikashparashar/bookings/pkg/config"
-	"github.com/vikashparashar/bookings/pkg/models"
+	"github.com/vikashparashar/Hotel_Bookings_2/pkg/config"
+	"github.com/vikashparashar/Hotel_Bookings_2/pkg/models"
 )
 
 // stored parsed template into it
